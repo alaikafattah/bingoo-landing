@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 36" width="125" height="36">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 21px;fill: #ffffff;font-weight: 400;font-family: "Bitsumishi", "Bitsumishi" } 
+	</style>
+	<text id="BiNGOO" style="transform: matrix(1.645,0,0,1.645,3,27.421)" >
+		<tspan x="0" y="0" class="t0">B</tspan><tspan  y="0" class="t0">i</tspan><tspan  y="0" class="t0">N</tspan><tspan  y="0" class="t0">G</tspan><tspan  y="0" class="t0">O</tspan><tspan  y="0" class="t0">O
+</tspan>
+	</text>
+</svg>
