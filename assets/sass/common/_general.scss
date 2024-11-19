@@ -154,7 +154,7 @@ hr {
 }
 
 .cs_gradient_color {
-  background: linear-gradient(108.18deg, #66FFB3 40%, #3CB371 60%);
+  background: linear-gradient(108.18deg, #5A60FF 40%, #5A60FF 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -196,7 +196,7 @@ label {
   line-height: 1.5em;
   padding: 1px;
   border-radius: 8px;
-  background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+  background: #5A60FF;
   @media (max-width: 767px) {
     font-size: 16px;
   }
@@ -516,7 +516,7 @@ label {
     line-height: 1.143em;
     text-transform: uppercase;
     opacity: 0.7;
-    background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+    background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -525,7 +525,7 @@ label {
 
   .cs_section_subtitle_type_2 {
     display: inline-flex;
-    background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+    background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -text-stroke: 1px transparent;
@@ -828,7 +828,7 @@ label {
 
   .cs_timeline_heading {
     display: inline-flex;
-    background: var(--linear, linear-gradient(90deg, #66FFB3 10%, #3CB371 90%));
+    background: var(--linear, linear-gradient(90deg, #5A60FF 10%, #5A60FF 90%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

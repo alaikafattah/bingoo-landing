@@ -16,11 +16,7 @@
     height: 100%;
     padding: 29px;
     border-radius: 20px;
-    background: linear-gradient(
-      270deg,
-      rgba(217, 26, 255, 0.01) 0%,
-      rgba(135, 61, 255, 0.01) 100%
-    );
+    background: #5A60FF;
     background-color: var(--web-wash);
 
     @media (max-width: 575px) {
@@ -134,7 +130,7 @@
     width: 30px;
     height: 28px;
     border-radius: 8px 0px 16px 0px;
-    background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+    background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
     font-size: 12px;
     font-weight: 600;
     font-family: var(--heading-font);
@@ -163,7 +159,7 @@
     word-wrap: break-word;
     width: 40px;
     height: 40px;
-    background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+    background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
     font-size: 14px;
     font-weight: 600;
     font-family: var(--heading-font);

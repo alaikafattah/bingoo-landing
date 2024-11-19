@@ -21,11 +21,11 @@
 ## All Variable
 ----------------------------------------------------------------*/
 :root {
-  --web-wash: #0f1721;
+  --web-wash: #0D1E42;
   --heading-color: #fff;
   --body-color: rgba(255, 255, 255, 0.7);
   --ternary: #88a5ad;
-  --accent-color: #66FFB3;
+  --accent-color: #5A60FF;
   --gray: #f7f7f7;
   --border: #dddddd;
   --heading-font: "Conthrax", serif;
@@ -255,24 +255,20 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;              // Circle size
-  height: 60px;             // Circle size
-  background-color: #333;   // Background color for circle
-  border-radius: 50%;       // Make it circular
-  color: white;             // Icon color
-  font-size: 28px;          // Adjust icon size to fit inside circle
-  transition: transform 0.3s ease-in-out;
-  border: none;
+  width: 60px;               /* Ukuran lingkaran */
+  height: 60px;              /* Ukuran lingkaran */          /* Menyembunyikan bagian gambar yang keluar */
 }
 
-.cs_social_icon i {
-  font-size: 24px;          // Adjust icon size
+.social-image {
+  width: 100%;               /* Menyesuaikan gambar dengan lingkaran */
+  height: 100%;              /* Menyesuaikan gambar dengan lingkaran */
+  object-fit: cover;         /* Membuat gambar tetap proporsional */
 }
 
 .cs_social_icon:hover {
-  background-color: #007bff;  // Hover color
-  transform: scale(1.1);       // Optional zoom effect on hover
+  transform: scale(1.1);     /* Efek zoom saat hover */
 }
+
 .cs_preloader {
   position: fixed;
   z-index: 99999;
@@ -307,7 +303,7 @@ textarea {
 }
 
 .cs_preloader_in {
-  background: linear-gradient(116.85deg, #66FFB3 0%, #3CB371 100%);
+  background: linear-gradient(116.85deg, #5A60FF 0%, #5A60FF 100%);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -1594,7 +1590,7 @@ hr {
 }
 
 .cs_gradient_color {
-  background: linear-gradient(108.18deg, #66FFB3 40%, #3CB371 60%);
+  background: linear-gradient(108.18deg, #5A60FF 40%, #5A60FF 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1643,8 +1639,7 @@ label {
   line-height: 1.5em;
   padding: 1px;
   border-radius: 8px;
-  background: -webkit-gradient(linear, left top, right top, from(#66FFB3), to(#2E2E2E));
-  background: linear-gradient(135deg, #66FFB3 0%, #3CB371 100%);
+  background: #5A60FF;
 }
 @media (max-width: 767px) {
   .cs_btn.cs_style_1 {
@@ -1914,7 +1909,7 @@ label {
   line-height: 1.143em;
   text-transform: uppercase;
   opacity: 0.7;
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: #5A60FF;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1924,7 +1919,7 @@ label {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: #5A60FF;
   background-clip: text;
   -webkit-background-clip: text;
   -text-stroke: 1px transparent;
@@ -1969,7 +1964,7 @@ label {
   Accordian styling
 ----------------------------------------------------------------*/
 .cs_accordian.cs_style_1 {
-  background-color: rgba(217, 217, 217, 0.06);
+  background-color: rgb(13 30 66 / 50%);
   position: relative;
   z-index: 1;
 }
@@ -2244,7 +2239,7 @@ label {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background: var(--linear, linear-gradient(90deg, #66FFB3 10%, #3CB371 90%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 10%, #5A60FF 90%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2489,7 +2484,7 @@ label {
 }
 .cs_slider_arrows.cs_style_1 .cs_left_arrow:hover,
 .cs_slider_arrows.cs_style_1 .cs_right_arrow:hover {
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
 }
 
 .cs_pagination.cs_style_1 {
@@ -2538,7 +2533,7 @@ label {
   transition: all 0.3s ease;
 }
 .cs_pagination.cs_style_1 li.slick-active {
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
 }
 .cs_pagination.cs_style_1 li.slick-active::before {
   background-color: var(--web-wash);
@@ -2604,13 +2599,13 @@ label {
   }
 }
 .cs_site_header.cs_style_1.cs_type_1 {
-  background-color: #0f1721;
+  background-color: #0D1E42;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 .cs_site_header.cs_style_1.cs_sticky_active {
-  background-color: #0f1721;
+  background-color: #0D1E42;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
@@ -3043,6 +3038,12 @@ label {
 /*--------------------------------------------------------------
   8. Footer
 ----------------------------------------------------------------*/
+
+.disabled-button {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
 .cs_footer {
   padding-top: 1px;
   background-position: top center;
@@ -3084,11 +3085,9 @@ label {
 .cs_social_btns a {
   height: 30px;
   width: 30px;
-  color: var(--heading-color);
   font-size: 14px;
 }
 .cs_social_btns a:hover {
-  background-color: var(--heading-color);
   border-color: var(--heading-color);
   color: var(--web-wash);
 }
@@ -3099,7 +3098,7 @@ label {
 .cs_newsletter .cs_newsletter_input {
   display: block;
   width: 100%;
-  border: 1px solid #66FFB3;
+  border: 1px solid #5A60FF;
   height: 40px;
   background-color: transparent;
   border-radius: 8px;
@@ -3113,8 +3112,8 @@ label {
   height: 40px;
   width: 40px;
   border: none;
-  background: -webkit-gradient(linear, left top, right top, from(#66FFB3), to(#3CB371));
-  background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#5A60FF), to(#5A60FF));
+  background: linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%);
   border-radius: 0 8px 8px 0;
   color: #fff;
 }
@@ -3302,8 +3301,8 @@ label {
           animation: rotate360 30s linear infinite;
 }
 .cs_hero.cs_style_1 .cs_hero_circle_in {
-  background: -webkit-gradient(linear, left top, right top, from(#66FFB3), to(#3CB371));
-  background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#5A60FF), to(#5A60FF));
+  background: linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%);
   height: 80px;
   width: 80px;
   border-radius: 50%;
@@ -3479,8 +3478,7 @@ label {
 .cs_iconbox.cs_style_1 {
   height: 100%;
   padding: 1px;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(102, 255, 179, 0.4)), to(rgba(60, 179, 113, 0.4)));
-  background: linear-gradient(270deg, rgba(102, 255, 179, 0.4) 0%, rgba(60, 179, 113, 0.4) 100%);
+  background: #5A60FF;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -3489,8 +3487,7 @@ label {
   height: 100%;
   padding: 29px;
   border-radius: 20px;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(102, 255, 179, 0.4)), to(rgba(60, 179, 113, 0.4)));
-  background: linear-gradient(270deg, rgba(217, 26, 255, 0.01) 0%, rgba(135, 61, 255, 0.01) 100%);
+  background: #5A60FF;
   background-color: var(--web-wash);
 }
 @media (max-width: 575px) {
@@ -3500,8 +3497,7 @@ label {
   }
 }
 .cs_iconbox.cs_style_1.cs_type_1 {
-  background: -webkit-gradient(linear, right top, left top, from(rgba(102, 255, 179, 0.4)), to(rgba(160, 179, 113, 0.4)));
-  background: linear-gradient(270deg, rgba(102, 255, 179, 0.4) 0%, rgba(60, 179, 113, 0.4) 100%);
+  background: #5A60FF;
   border-radius: 40px;
 }
 @media (max-width: 575px) {
@@ -3561,8 +3557,7 @@ label {
   margin-bottom: 18px;
 }
 .cs_iconbox.cs_style_1:hover {
-  background: -webkit-gradient(linear, right top, left top, from(rgb(102, 255, 179)), to(rgb(60, 179, 113)));
-  background: linear-gradient(270deg, rgb(102, 255, 179) 0%, rgb(60, 179, 113) 100%);
+  background: #5A60FF;
 }
 
 .cs_iconbox_wrapper.cs_style_1 {
@@ -3604,7 +3599,7 @@ label {
   width: 30px;
   height: 28px;
   border-radius: 8px 0px 16px 0px;
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
   font-size: 12px;
   font-weight: 600;
   font-family: var(--heading-font);
@@ -3638,7 +3633,7 @@ label {
   word-wrap: break-word;
   width: 40px;
   height: 40px;
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
   font-size: 14px;
   font-weight: 600;
   font-family: var(--heading-font);
@@ -3697,7 +3692,7 @@ label {
 .cs_post.cs_style_1 .cs_post_meta_separator {
   width: 24px;
   height: 1px;
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
 }
 .cs_post.cs_style_1 .cs_post_title {
   font-size: 24px;
@@ -3818,8 +3813,8 @@ label {
 }
 
 .page-item {
-  background: -webkit-gradient(linear, left top, right top, from(#66FFB3), to(#3CB371));
-  background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#5A60FF), to(#5A60FF));
+  background: #5A60FF;
   padding: 1px;
   border-radius: 1px;
 }
@@ -3836,15 +3831,15 @@ label {
   color: var(--heading-color);
 }
 .page-link:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#66FFB3), to(#3CB371));
-  background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#5A60FF), to(#5A60FF));
+  background: linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%);
   color: var(--heading-color);
 }
 
 .page-item.active .page-link {
   pointer-events: none;
-  background: -webkit-gradient(linear, left top, right top, from(#66FFB3), to(#3CB371));
-  background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#5A60FF), to(#5A60FF));
+  background: linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%);
 }
 
 /*--------------------------------------------------------------
@@ -3939,7 +3934,7 @@ label {
   14. Team
 ----------------------------------------------------------------*/
 .cs_team.cs_style_1 {
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
   border-radius: 8px;
   padding: 1px;
 }
@@ -3958,7 +3953,7 @@ label {
   border-radius: inherit;
 }
 .cs_team.cs_style_1.cs_type_1 .cs_team_thumbnail_wrapper {
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
   border-radius: 50%;
   padding-bottom: 1px;
 }
@@ -4064,7 +4059,7 @@ label {
   opacity: 1;
 }
 .cs_team.cs_style_1 .cs_social_btns.cs_style_1 a:not(:first-child):hover {
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
 }
 .cs_team.cs_style_1:hover .cs_social_btns.cs_style_1 {
   gap: 15px;

@@ -52,7 +52,7 @@
   .cs_post_meta_separator {
     width: 24px;
     height: 1px;
-    background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+    background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
   }
 
   .cs_post_title {
@@ -184,7 +184,7 @@
 }
 
 .page-item {
-  background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+  background: linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%);
   padding: 1px;
   border-radius: 1px;
 
@@ -202,7 +202,7 @@
   color: var(--heading-color);
 
   &:hover {
-    background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+    background: linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%);
     color: var(--heading-color);
   }
 }
@@ -210,6 +210,6 @@
 .page-item.active {
   .page-link {
     pointer-events: none;
-    background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+    background: linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%);
   }
 }

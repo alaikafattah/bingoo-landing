@@ -2,7 +2,7 @@
   14. Team
 ----------------------------------------------------------------*/
 .cs_team.cs_style_1 {
-  background: var(--linear, linear-gradient(90deg, #66FFB3 0%, #3CB371 100%));
+  background: var(--linear, linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%));
   border-radius: 8px;
   padding: 1px;
 
@@ -23,7 +23,7 @@
     .cs_team_thumbnail_wrapper {
       background: var(
         --linear,
-        linear-gradient(90deg, #66FFB3 0%, #3CB371 100%)
+        linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%)
       );
       border-radius: 50%;
       padding-bottom: 1px;
@@ -139,7 +139,7 @@
       &:not(:first-child):hover {
         background: var(
           --linear,
-          linear-gradient(90deg, #66FFB3 0%, #3CB371 100%)
+          linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%)
         );
       }
     }

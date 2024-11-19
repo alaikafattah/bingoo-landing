@@ -119,7 +119,7 @@
     &:hover {
       background: var(
         --linear,
-        linear-gradient(90deg, #66FFB3 0%, #3CB371 100%)
+        linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%)
       );
     }
   }
@@ -164,7 +164,7 @@
     &.slick-active {
       background: var(
         --linear,
-        linear-gradient(90deg, #66FFB3 0%, #3CB371 100%)
+        linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%)
       );
 
       &::before {

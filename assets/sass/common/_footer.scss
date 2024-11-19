@@ -59,13 +59,7 @@
     width: 30px;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    color: var(--heading-color);
     font-size: 14px;
-    &:hover {
-      background-color: var(--heading-color);
-      border-color: var(--heading-color);
-      color: var(--web-wash);
-    }
   }
 }
 .cs_newsletter {
@@ -73,7 +67,7 @@
   .cs_newsletter_input {
     display: block;
     width: 100%;
-    border: 1px solid #66FFB3;
+    border: 1px solid #5A60FF;
     height: 40px;
     background-color: transparent;
     border-radius: 8px;
@@ -87,7 +81,7 @@
     height: 40px;
     width: 40px;
     border: none;
-    background: linear-gradient(90deg, #66FFB3 0%, #3CB371 100%);
+    background: linear-gradient(90deg, #5A60FF 0%, #5A60FF 100%);
     border-radius: 0 8px 8px 0;
     color: #fff;
     i {
