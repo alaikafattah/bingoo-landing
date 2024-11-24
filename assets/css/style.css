@@ -30,7 +30,7 @@
   --border: #dddddd;
   --heading-font: "Conthrax", serif;
   --body-font: "Urbanist", sans-serif;
-  --background-image: url('../img/mountain.webp');
+  --background-image: url('../img/banner1.webp');
   --background-size: cover;
   --background-position: center;
   --background-attachment: fixed;
@@ -238,6 +238,17 @@ textarea {
   2. Preloader
 ----------------------------------------------------------------*/
 
+.follow-us-wrapper {
+  text-align: center; // Teks rata tengah
+  margin-bottom: 15px; // Jarak antara teks dan ikon sosial
+}
+
+.follow-us-text {
+  font-size: 1.5rem; // Ukuran font
+  font-weight: bold;
+  color: #ffffff; // Warna teks
+}
+
 .cs_social_center {
   display: flex;
   justify-content: center;  // Center the icons horizontally
@@ -256,7 +267,7 @@ textarea {
   justify-content: center;
   align-items: center;
   width: 60px;               /* Ukuran lingkaran */
-  height: 60px;              /* Ukuran lingkaran */          /* Menyembunyikan bagian gambar yang keluar */
+  height: 60px;              /* Ukuran lingkaran */
 }
 
 .social-image {
@@ -3353,7 +3364,7 @@ label {
 @media (max-width: 767px) {
   .cs_hero.cs_style_2 {
     height: initial;
-    padding: 120px 0 20px;
+    padding: 160px 0 80px;
   }
 }
 .cs_hero.cs_style_2 .cs_hero_title_up {
